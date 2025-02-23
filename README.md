@@ -17,3 +17,5 @@ We will use **SQL** for querying the data and **Power BI** for visualization and
 Identificamos las tablas relevantes para nuestro análisis. 
 
 5. Data transformation, cleansing and export into csv files
+
+6. Creamos el dashboard de PowerBi
