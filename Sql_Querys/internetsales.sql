@@ -1,4 +1,3 @@
--- Cleansed FACT_InternetSales Table --
 SELECT 
   [ProductKey], 
   [OrderDateKey], 
@@ -28,6 +27,6 @@ SELECT
 FROM 
   [AdventureWorksDW2019].[dbo].[FactInternetSales]
 WHERE 
-  LEFT (OrderDateKey, 4) >= YEAR(GETDATE()) -6 -- Para trabajar con los datos a partir de 2019 
+  LEFT (OrderDateKey, 4) >= YEAR(GETDATE()) -6 -- Para trabajar con los datos a partir de 2019 ya que el data set es de 2021 y nos piden analizar los ultimos dos años
 ORDER BY
   OrderDateKey ASC

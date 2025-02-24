@@ -35,4 +35,4 @@ FROM
   [AdventureWorksDW2019].[dbo].[DimCustomer] as c
   LEFT JOIN dbo.dimgeography AS g ON g.geographykey = c.geographykey 
 ORDER BY 
-  CustomerKey ASC -- Ordered List by CustomerKey
+  CustomerKey ASC -- Ordenamos por CustomerKey para que Power BI pueda relacionar las tablas
