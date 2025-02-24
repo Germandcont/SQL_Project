@@ -21,6 +21,6 @@ SELECT
   --[FiscalYear], 
   --[FiscalSemester] 
 FROM 
- [AdventureWorksDW2022].[dbo].[DimDate]
+ [AdventureWorksDW2019].[dbo].[DimDate]
 WHERE 
-  CalendarYear >= 2012
+  CalendarYear >= 2019  

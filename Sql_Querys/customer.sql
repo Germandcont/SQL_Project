@@ -32,7 +32,7 @@ SELECT
   --      ,[CommuteDistance]
   g.city AS [Customer City] -- Joined in Customer City from Geography Table
 FROM 
-  [AdventureWorksDW2022].[dbo].[DimCustomer] as c
+  [AdventureWorksDW2019].[dbo].[DimCustomer] as c
   LEFT JOIN dbo.dimgeography AS g ON g.geographykey = c.geographykey 
 ORDER BY 
   CustomerKey ASC -- Ordered List by CustomerKey
