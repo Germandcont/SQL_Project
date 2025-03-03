@@ -23,6 +23,7 @@ We will use **SQL** for querying the data and **Power BI** for visualization and
 ### 4. Power BI Dashboard and Metric Creation with DAX
 - Import results through SQL Server using previously saved queries
 - Perform important modifications, such as data type adjustments
+- Editing and creating relationships between tables
 - Create key metrics to present results, such as:
 - Budget Amount = SUM(Fact_Budget[Budget])
   - Sales - Budget = [Sales] - [Budget Amount]
