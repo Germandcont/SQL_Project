@@ -2,7 +2,8 @@
 The idea of this project is to perform a data analysis using a database provided by Microsoft for learning purposes: [AdventureWorks_DB](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms).  
 We will use **SQL** for querying the data and **Power BI** for visualization and analysis.
 
-
+## PowerBi Dashboard URL
+[PowerBi](https://app.powerbi.com/view?r=eyJrIjoiMTdkNjgzZGYtM2ZmYS00ZDI3LTgwZDMtNzMwNjVkMjRkYmRmIiwidCI6IjhhZWJkZGI2LTM0MTgtNDNhMS1hMjU1LWI5NjQxODZlY2M2NCIsImMiOjl9)
 
 
 ## Steps
