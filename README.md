@@ -25,7 +25,7 @@ We will use **SQL** for querying the data and **Power BI** for visualization and
 - Perform important modifications, such as data type adjustments
 - Editing and creating relationships between tables
 - Create key metrics to present results, such as:
-- Budget Amount = SUM(Fact_Budget[Budget])
+  - Budget Amount = SUM(Fact_Budget[Budget])
   - Sales - Budget = [Sales] - [Budget Amount]
   - Sales / Budget Amount = DIVIDE([Sales], [Budget Amount])
 - Build an interactive dashboard
