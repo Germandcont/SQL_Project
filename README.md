@@ -5,17 +5,26 @@ We will use **SQL** for querying the data and **Power BI** for visualization and
 
 
 
-### Steps
+## Steps
+### 1. Creación del entorno
+- Nos conectamos a SQL SERVER desde SSMS
+- Creamos la base de datos y agregamos las tablas (archivos csv) en este caso, obtenidas desde Microsoft Learn
 
-1. Nos conectamos a SQL SERVER
+### 2. Business Request
+- Leemos el Business Request para orientar nuestro análisis a objetivos dados por el cliente
 
-2. Creamos la base de datos y agregamos las tablas (archivos csv en este caso)
+### 3. SQL QUERYS
+- Selección de columnas importantes
+- Joins 
+- Filtrado por fechas de análisis solicitadas
+- Guardado de resultados (Querys y Archivos csv)
 
-3. Business Request (Que nos piden)
+### 4. PowerBi Dasboard y Creación de métricas con DAX
+- Importación de resultados a través de SQL Server con Querys guardadas anteriormente
+- Modificaciones importantes como tipos de datos
+- Creación de métricas claves para exponer resultados como: 
+  - Budget Amount = SUM(Fact_Budget[Budget])
+  - Sales - Budget = [Sales] - [Budget Amount]
+  - Sales / Budget Amount = Divide ( [Sales], [Budget Amount])
+- Creación de panel interactivo
 
-4. Revisar 
-Identificamos las tablas relevantes para nuestro análisis. 
-
-5. Data transformation, cleansing and export into csv files
-
-6. Creamos el dashboard de PowerBi
