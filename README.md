@@ -9,7 +9,7 @@ We will use **SQL** for querying the data and **Power BI** for visualization and
 ### 1. Environment Setup
 - Connect to SQL SERVER using SSMS
 - Create the database and add tables (CSV files), obtained from Microsoft Learn in this case
-  
+
 ### 2. Business Request
 - Read the Business Request to align our analysis with the client's objectives
 
