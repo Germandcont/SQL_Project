@@ -30,3 +30,7 @@ We will use **SQL** for querying the data and **Power BI** for visualization and
   - Sales / Budget Amount = DIVIDE([Sales], [Budget Amount])
 - Build an interactive dashboard
 
+# RESULT BASED ON REQUIREMENT 
+![Diseño sin título (3)](https://github.com/user-attachments/assets/b06db700-80a9-432b-a0c5-c868ec8c2886)
+
+
